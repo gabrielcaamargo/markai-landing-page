@@ -6,4 +6,10 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
   }
+
+  body{
+    background-color: #0F0B30;
+    color: #fff;
+    font-family: 'Poppins', sans-serif ;
+  }
 `
