@@ -6,21 +6,37 @@ export const PresentationContainer = styled.div`
   text-align: center;
   flex-direction: column;
   align-items: center;
-  margin-top: 13rem;
+  margin: 13rem auto 0;
   line-height: 105px;
+  
+  @media (max-width: 600px){
+    line-height: 75px;
+    justify-content: center;
+  }
 `
 
 export const HeadingText = styled.p`
   font-size: 4rem;
+
+  @media (max-width: 600px){
+    font-size: 2.5rem;
+  }
 `
 
 export const MainText = styled.h2`
   font-weight: 700;
-  font-size: 8rem;
+  font-size: 7rem;
+
   text-transform: uppercase;
   background: linear-gradient(90deg, #00F0FF 0%, #5773FF 46.87%, #FF007A 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
+  @media (max-width: 600px){
+    font-size: 4rem;
+    padding: 0 2rem;
+    text-align: center;
+  }
 `
 
 export const Description = styled.p`
@@ -28,6 +44,10 @@ export const Description = styled.p`
   width: 30%;
   line-height: 30px;
   margin-top: 15px;
+
+  @media (max-width: 600px){
+    width: 70%;
+  }
 `
 
 
@@ -65,7 +85,7 @@ export const StyledButton = styled.button`
   }
 `
 export const ArrowContainer = styled.div`
-  margin-top: 8rem;
+  margin: 9rem 0;
   width: 40px;
   height: 40px;
   background: none;
