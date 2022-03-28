@@ -14,5 +14,5 @@ export const ListItem = styled.li`
 
 export const List = styled.ul`
   display: flex;
-  margin: 0 auto;
+  margin-left: 5rem;
 `
