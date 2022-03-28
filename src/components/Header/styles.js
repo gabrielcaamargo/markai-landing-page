@@ -6,4 +6,5 @@ export const HeaderContainer = styled.div`
   padding: 2rem 9rem;
   margin: 0 auto;
   text-align: center;
+  align-items: center;
 `
