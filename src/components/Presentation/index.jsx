@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { HeadingText, MainText, Description, PresentationContainer, StyledButton, ArrowContainer} from './styles';
+import { HeadingText, MainText, Description, PresentationContainer, StyledButton, Arrow} from './styles';
 
 
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons"
@@ -27,7 +27,7 @@ export default function Presentation(){
           <FontAwesomeIcon icon={faArrowRightLong} />
       </StyledButton>
 
-      <ArrowContainer />
+      <Arrow src="images/down-arrow.svg" alt="" />
       
     </PresentationContainer>
   )

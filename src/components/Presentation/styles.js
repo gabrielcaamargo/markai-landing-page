@@ -84,12 +84,6 @@ export const StyledButton = styled.button`
     z-index: -1;
   }
 `
-export const ArrowContainer = styled.div`
-  margin: 9rem 0;
-  width: 40px;
-  height: 40px;
-  background: none;
-  border-bottom: 3px solid white;
-  border-right: 3px solid white;
-  transform: rotate(45deg);
+export const Arrow = styled.img`
+  margin: 120px 0 150px;
 `
