@@ -19,6 +19,7 @@ import Increase from '../Increase';
 
 import Reviews from '../Reviews';
 
+import ContactUs from '../ContactUs';
 
 export default function App(){
   return(
@@ -33,6 +34,7 @@ export default function App(){
       </AboutWrapper>
       <Increase />
       <Reviews />
+      <ContactUs />
     </Container>
   )
 }
