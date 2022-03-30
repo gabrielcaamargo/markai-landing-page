@@ -4,8 +4,8 @@ import Header from '../Header';
 import Presentation from '../Presentation';
 import MakeTheDifference from '../MakeTheDifference';
 import ExploreTheFeatures from '../ExploreTheFeatures';
-
-import { FeatureWrapper } from '../ExploreTheFeatures/styles';
+import VideoSection from '../VideoSection';
+import About from '../About';
 
 export default function App(){
   return(
@@ -14,6 +14,8 @@ export default function App(){
       <Presentation />
       <MakeTheDifference />
       <ExploreTheFeatures />
+      <VideoSection /> 
+      <About />
     </>
   )
 }
