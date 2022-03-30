@@ -1,21 +1,27 @@
 import styled from 'styled-components'
 
+export const AboutWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  & .secondElement{
+    flex-direction: row-reverse;
+  
+    & img{
+      margin-right: 230px;
+    }
+
+    & .description{
+      width: 85%;
+    }
+  } 
+`
+
 export const Container = styled.div`
   display: flex;
   justify-content: center;
   margin: 0 15rem 150px;
 
-  &:last-child{
-    flex-direction: row-reverse;
-  }
-
-  &:last-child img{
-    margin-right: 200px;
-  }
-
-  &:last-child .description{
-    width: 85%;
-  }
 `
 
 export const ContentWrapper = styled.div`

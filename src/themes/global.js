@@ -13,6 +13,8 @@ export const GlobalStyle = createGlobalStyle`
     background-color: #0F0B30;
     color: #fff;
     font-family: 'Poppins', sans-serif ;
+;  
+    margin: 0 auto;
   }
 
 `

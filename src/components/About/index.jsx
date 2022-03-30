@@ -5,7 +5,7 @@ import About from './About';
 export default function AboutWrapper(){
   return(
     <>
-      <About 
+      <About
         introText="What is"
         highlighted="Custom Interface"
         image="images/showing_interface.svg"
@@ -13,7 +13,8 @@ export default function AboutWrapper(){
       />
 
       <About
-        class="description"
+        primaryClass="secondElement"
+        textClass="description"
         introText="You can mantain your"
         highlighted="Website with Ai"
         image="images/cleaning_computer.png"
