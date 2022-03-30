@@ -6,7 +6,6 @@ export const IncreaseContainer = styled.div`
     flex-direction: column;
     margin: 0 15rem 150px;
 
-
     --border-width: 2px;
 
     border-radius: 40px;
@@ -76,6 +75,7 @@ export const Button = styled.button`
   background: linear-gradient(90deg, rgba(0,240,255,1) 0%, rgba(87,115,255,1) 60%, rgba(255,0,122,1) 100%);
   position: relative;
   cursor: pointer;
+  transition: ease-in-out .2s;
 
   z-index: 1;
 
@@ -93,5 +93,6 @@ export const Button = styled.button`
     border-radius: 50px;
 
     z-index: -1;
+
 }
 `
