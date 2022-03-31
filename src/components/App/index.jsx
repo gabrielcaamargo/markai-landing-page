@@ -21,6 +21,10 @@ import Reviews from '../Reviews';
 
 import ContactUs from '../ContactUs';
 
+import Footer from '../Footer'
+
+import RightsReserved from '../RightsReserved';
+
 export default function App(){
   return(
     <Container>
@@ -35,6 +39,8 @@ export default function App(){
       <Increase />
       <Reviews />
       <ContactUs />
+      <Footer /> 
+      <RightsReserved />
     </Container>
   )
 }
